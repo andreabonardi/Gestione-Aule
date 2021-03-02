@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Home - Gestione Aule</title>
+    <link rel="icon" type="image/png" href="../assets/favicon.png" />
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -128,7 +129,8 @@
 
 
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 aula">
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 aula" *ngFor="let item of items; let n = 4">
                 <h1> AULA 1 </h1>
                 <div class="col-3 col-sm-3 col-md-3 col-lg-3 banco">
                     1
