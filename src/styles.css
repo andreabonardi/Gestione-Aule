@@ -538,3 +538,20 @@ h1 {
     text-align: center;
     border-radius: 5px !important;
 }
+
+form {
+    margin-left: 275px;
+    width: 50%;
+}
+
+.conferma {
+    background-color: green !important;
+    border: none;
+    box-shadow: none;
+}
+
+.reset {
+    background-color: red !important;
+    border: none;
+    box-shadow: none;
+}
