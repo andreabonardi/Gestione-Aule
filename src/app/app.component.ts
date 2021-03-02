@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'architettura-software';
+
+  arrayone (n:number):any [] {return Array(n)}
 }
