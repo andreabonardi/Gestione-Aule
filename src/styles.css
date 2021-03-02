@@ -510,6 +510,10 @@ body {
     position: fixed;
 }
 
+#sidebar {
+    border-top-right-radius: 30px !important;
+}
+
 .row {
     padding-left: 275px;
     width: 100%;
@@ -521,6 +525,7 @@ body {
     border: 20px solid white;
     font-weight: bold;
     padding-bottom: 5vh;
+    border-top-right-radius: 60px !important;
 }
 
 h1 {
@@ -531,4 +536,5 @@ h1 {
     background-color: green;
     width: 100%;
     text-align: center;
+    border-radius: 5px !important;
 }
