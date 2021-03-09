@@ -9,4 +9,12 @@ export class AppComponent {
   title = 'architettura-software';
 
   arrayone (n:number):any [] {return Array(n)}
+
+  /*saveStud(){
+    let url:string="/delete/"+this.invoiceDetail.id;
+    let observer=this.httpService.retrieveDeleteCall<string>(url).subscribe(response=>{
+      this.updateUser();
+      observer.unsubscribe();
+    });
+  }*/
 }
